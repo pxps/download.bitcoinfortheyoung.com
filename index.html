@@ -255,6 +255,13 @@
                 <ul class="directory">
                     <li>
                         <i class="fas fa-file-pdf"></i>
+                        <a href="https://download.bitcoinfortheyoung.com/gaolaoshi/20251130.pdf" class="pdf-link" id="test-pdf">
+                            <div class="file-name">20251130.pdf</div>
+                            <div class="file-desc">蛙蛙系列手册之未来已来v1.1</div>
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-file-pdf"></i>
                         <a href="https://download.bitcoinfortheyoung.com/gaolaoshi/20250924.zip" class="pdf-link" id="test-pdf">
                             <div class="file-name">20250924.pdf</div>
                             <div class="file-desc">佩佩币-带有青蛙标志的比特币v1.6</div>
@@ -397,6 +404,16 @@
             // 在实际应用中，这里会指向真实的PDF文件
             // 现在使用一个示例PDF链接（来自互联网的公开PDF）
             const pdfUrl = 'https://download.bitcoinfortheyoung.com/gaolaoshi/20251018.zip';
+            
+            // 在新标签页中打开PDF
+            window.open(pdfUrl, '_blank');
+        });
+        document.getElementById('20251018.zip').addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            // 在实际应用中，这里会指向真实的PDF文件
+            // 现在使用一个示例PDF链接（来自互联网的公开PDF）
+            const pdfUrl = 'https://download.bitcoinfortheyoung.com/gaolaoshi/20251130.zip';
             
             // 在新标签页中打开PDF
             window.open(pdfUrl, '_blank');
